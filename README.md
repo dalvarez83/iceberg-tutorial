@@ -90,6 +90,8 @@ Then click on “add source” and select `Nessie`.
 - Set the endpoint URL to `http://nessie:19120/api/v2`
 - Set the authentication to `none`
 
+![New Nessie (Preview) Source](docs/new-nessie-preview-source.png)
+
 - Navigate to the storage tab, by clicking on “storage” on the left
 - For your access key, set `admin`
 - For your secret key, set `password`
