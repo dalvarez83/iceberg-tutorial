@@ -1,8 +1,9 @@
-*Iceberg Tutorial*
+#Iceberg Tutorial
 
 This repo is to run a quick demo for how to spin up an Apache Iceberg application.
 
-**Overview**
+##Overview
+
 Apache Iceberg is a table format specification. It defines a standard for how metadata is 
 written in tables. It includes a set of APIs and libraries for interaction with that 
 table format specification. These libraries are leveraged in other engines and tools 
@@ -68,7 +69,8 @@ docker-compose up nessie
 ```
 
 Once all three are up and running, head over to localhost:9000 to log in to Minio.
-***This step runs in Safari browser currently***
+
+####This step runs in Safari browser currently
 
 Enter username: `admin`
 Enter password: `password`
@@ -98,4 +100,4 @@ Then click on “add source” and select `Nessie`.
 - `dremio.s3.compat` to "true"
 - Uncheck "encrypt connection" (since our local Nessie instance is running on http)
 
-![New Nessie Source]("docs/new-nessie-source.png)
+![New Nessie Source]("/docs/new-nessie-source.png)
