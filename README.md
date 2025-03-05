@@ -1,8 +1,8 @@
-#Iceberg Tutorial
+Iceberg Tutorial
 
 This repo is to run a quick demo for how to spin up an Apache Iceberg application.
 
-##Overview
+Overview
 
 Apache Iceberg is a table format specification. It defines a standard for how metadata is 
 written in tables. It includes a set of APIs and libraries for interaction with that 
@@ -100,4 +100,4 @@ Then click on “add source” and select `Nessie`.
 - `dremio.s3.compat` to "true"
 - Uncheck "encrypt connection" (since our local Nessie instance is running on http)
 
-![New Nessie Source]("/docs/new-nessie-source.png)
+![New Nessie Source]("/docs/new-nessie-source.png")
