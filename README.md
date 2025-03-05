@@ -49,7 +49,7 @@ cd iceberg-tutorial
 
 Spin up dremio
 ```
-docker-compose up dremio
+docker compose up dremio
 ```
 
 After a few minutes, you can access Dremio in your browser at localhost:9047. 
@@ -57,7 +57,7 @@ While Dremio starts up, open another terminal window and create your storage lay
 Minio with the following command:
 
 ```
-docker-compose up minio
+docker compose up minio
 ```
 
 Then start up a Nessie server which will be the catalog to track our Apache Iceberg 
@@ -65,7 +65,7 @@ tables.
 
 
 ```
-docker-compose up nessie
+docker compose up nessie
 ```
 
 Once all three are up and running, head over to localhost:9000 to log in to Minio.
