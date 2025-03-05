@@ -23,7 +23,6 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project
     ├── docker-compose.yml <- Specifies the services, networks and ports for launching applications
     ├── docs               <- documents and images
