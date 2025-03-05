@@ -70,9 +70,10 @@ docker-compose up nessie
 
 Once all three are up and running, head over to localhost:9000 to log in to Minio.
 
-####This step runs in Safari browser currently
+****This step runs in Safari browser currently****
 
 Enter username: `admin`
+
 Enter password: `password`
  
 
@@ -95,9 +96,9 @@ Then click on “add source” and select `Nessie`.
 - For your secret key, set `password`
 - Set root path to `/warehouse`
 - Set the following connection properties:
-- `fs.s3a.path.style.access` to "true"
-- `fs.s3a.endpoint` to "minio:9000"
-- `dremio.s3.compat` to "true"
-- Uncheck "encrypt connection" (since our local Nessie instance is running on http)
+	- `fs.s3a.path.style.access` to "true"
+	- `fs.s3a.endpoint` to "minio:9000"
+	- `dremio.s3.compat` to "true"
+	- Uncheck "encrypt connection" (since our local Nessie instance is running on http)
 
 ![New Nessie Source](docs/new-nessie-source.png)
