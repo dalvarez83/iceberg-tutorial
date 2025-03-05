@@ -88,7 +88,7 @@ Then click on “add source” and select `Nessie`.
 
 - Set the name of the source to `nessie`
 - Set the endpoint URL to `http://nessie:19120/api/v2`
-- Set the authentication to `none`
+- Set the authentication to `None`
 
 ![New Nessie (Preview) Source](docs/new-nessie-preview-source.png)
 
