@@ -100,4 +100,4 @@ Then click on “add source” and select `Nessie`.
 - `dremio.s3.compat` to "true"
 - Uncheck "encrypt connection" (since our local Nessie instance is running on http)
 
-![New Nessie Source]('docs/new-nessie-source.png')
+![New Nessie Source](docs/new-nessie-source.png)
